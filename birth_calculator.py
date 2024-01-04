@@ -1,3 +1,5 @@
+print('Привет!')
+
 from datetime import datetime
 
 def calculate_age(birth_year, birth_month, birth_day):
