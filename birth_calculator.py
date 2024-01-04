@@ -1,4 +1,4 @@
-print('Привет!')
+print('Привет! Это программа для подсчета твоего возраста по введенной дате рождения')
 
 from datetime import datetime
 
@@ -10,13 +10,10 @@ def calculate_age(birth_year, birth_month, birth_day):
 
     return age
 
-# Ввод даты рождения от пользователя
 birth_year = int(input("Введите год рождения: "))
 birth_month = int(input("Введите месяц рождения: "))
 birth_day = int(input("Введите день рождения: "))
 
-# Вычисление возраста
 age = calculate_age(birth_year, birth_month, birth_day)
 
-# Вывод результата
 print(f"Ваш возраст: {age} лет")
